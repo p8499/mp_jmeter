@@ -1,329 +1,385 @@
-2020-05-19 11:49:52,687 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2020-05-19 11:49:52,734 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\Apache Software Fundation\JMeter\bin\user.properties
-2020-05-19 11:49:52,734 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\Apache Software Fundation\JMeter\bin\system.properties
-2020-05-19 11:49:52,734 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
-2020-05-19 11:49:52,734 INFO o.a.j.JMeter: Version 5.2.1
-2020-05-19 11:49:52,734 INFO o.a.j.JMeter: java.version=13.0.2
-2020-05-19 11:49:52,734 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2020-05-19 11:49:52,734 INFO o.a.j.JMeter: os.name=Windows Server 2016
-2020-05-19 11:49:52,734 INFO o.a.j.JMeter: os.arch=amd64
-2020-05-19 11:49:52,734 INFO o.a.j.JMeter: os.version=10.0
-2020-05-19 11:49:52,734 INFO o.a.j.JMeter: file.encoding=GBK
-2020-05-19 11:49:52,734 INFO o.a.j.JMeter: java.awt.headless=true
-2020-05-19 11:49:52,734 INFO o.a.j.JMeter: Max memory     =1073741824
-2020-05-19 11:49:52,734 INFO o.a.j.JMeter: Available Processors =2
-2020-05-19 11:49:52,750 INFO o.a.j.JMeter: Default Locale=English (EN)
-2020-05-19 11:49:52,750 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2020-05-19 11:49:52,750 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\Apache Software Fundation\JMeter
-2020-05-19 11:49:52,750 INFO o.a.j.JMeter: user.dir  =C:\mp_jmeter
-2020-05-19 11:49:52,750 INFO o.a.j.JMeter: PWD       =C:\mp_jmeter
-2020-05-19 11:49:52,750 INFO o.a.j.JMeter: IP: 192.168.100.41 Name: WIN-3M16I69LKRB FullName: WIN-3M16I69LKRB
-2020-05-19 11:49:52,765 INFO o.a.j.s.FileServer: Default base='C:\mp_jmeter'
-2020-05-19 11:49:52,765 INFO o.a.j.s.FileServer: Set new base='C:\mp_jmeter'
-2020-05-19 11:49:53,016 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2020-05-19 11:49:53,032 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2020-05-19 11:49:53,032 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2020-05-19 11:49:53,048 INFO o.a.j.s.SaveService: Loading file: C:\mp_jmeter\reset_data.jmx
-2020-05-19 11:49:53,235 INFO o.a.j.JMeter: Creating summariser <summary>
-2020-05-19 11:49:53,267 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2020-05-19 11:49:53,267 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-05-19 11:49:53,267 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2020-05-19 11:49:53,283 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2020-05-19 11:49:53,283 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2020-05-19 11:49:54,003 INFO o.a.j.JMeter: Running test (1589860194003)
-2020-05-19 11:49:54,034 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : clear enumtypevalue
-2020-05-19 11:49:54,034 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear enumtypevalue.
-2020-05-19 11:49:54,034 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:54,034 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:54,034 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2020-05-19 11:49:54,034 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear enumtypevalue to finish before starting next group
-2020-05-19 11:49:54,050 INFO o.a.j.t.JMeterThread: Thread started: clear enumtypevalue 1-1
-2020-05-19 11:49:54,050 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2020-05-19 11:49:54,050 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2020-05-19 11:49:54,050 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2020-05-19 11:49:54,050 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2020-05-19 11:49:54,426 INFO o.a.j.t.JMeterThread: Thread is done: clear enumtypevalue 1-1
-2020-05-19 11:49:54,426 INFO o.a.j.t.JMeterThread: Thread finished: clear enumtypevalue 1-1
-2020-05-19 11:49:54,426 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : clear enumtype
-2020-05-19 11:49:54,426 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear enumtype.
-2020-05-19 11:49:54,426 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:54,426 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:54,426 INFO o.a.j.t.ThreadGroup: Started thread group number 2
-2020-05-19 11:49:54,426 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear enumtype to finish before starting next group
-2020-05-19 11:49:54,426 INFO o.a.j.t.JMeterThread: Thread started: clear enumtype 2-1
-2020-05-19 11:49:54,473 INFO o.a.j.t.JMeterThread: Thread is done: clear enumtype 2-1
-2020-05-19 11:49:54,473 INFO o.a.j.t.JMeterThread: Thread finished: clear enumtype 2-1
-2020-05-19 11:49:54,473 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : clear maintenancetype
-2020-05-19 11:49:54,473 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear maintenancetype.
-2020-05-19 11:49:54,473 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:54,473 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:54,473 INFO o.a.j.t.ThreadGroup: Started thread group number 3
-2020-05-19 11:49:54,473 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear maintenancetype to finish before starting next group
-2020-05-19 11:49:54,473 INFO o.a.j.t.JMeterThread: Thread started: clear maintenancetype 3-1
-2020-05-19 11:49:54,536 INFO o.a.j.t.JMeterThread: Thread is done: clear maintenancetype 3-1
-2020-05-19 11:49:54,536 INFO o.a.j.t.JMeterThread: Thread finished: clear maintenancetype 3-1
-2020-05-19 11:49:54,552 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : clear inspectiontype
-2020-05-19 11:49:54,552 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear inspectiontype.
-2020-05-19 11:49:54,552 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:54,552 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:54,552 INFO o.a.j.t.ThreadGroup: Started thread group number 4
-2020-05-19 11:49:54,552 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear inspectiontype to finish before starting next group
-2020-05-19 11:49:54,552 INFO o.a.j.t.JMeterThread: Thread started: clear inspectiontype 4-1
-2020-05-19 11:49:54,614 INFO o.a.j.t.JMeterThread: Thread is done: clear inspectiontype 4-1
-2020-05-19 11:49:54,614 INFO o.a.j.t.JMeterThread: Thread finished: clear inspectiontype 4-1
-2020-05-19 11:49:54,630 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : clear equipment
-2020-05-19 11:49:54,630 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear equipment.
-2020-05-19 11:49:54,630 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:54,630 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:54,630 INFO o.a.j.t.ThreadGroup: Started thread group number 5
-2020-05-19 11:49:54,630 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear equipment to finish before starting next group
-2020-05-19 11:49:54,630 INFO o.a.j.t.JMeterThread: Thread started: clear equipment 5-1
-2020-05-19 11:49:54,739 INFO o.a.j.t.JMeterThread: Thread is done: clear equipment 5-1
-2020-05-19 11:49:54,739 INFO o.a.j.t.JMeterThread: Thread finished: clear equipment 5-1
-2020-05-19 11:49:54,739 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 6 : clear room
-2020-05-19 11:49:54,739 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear room.
-2020-05-19 11:49:54,739 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:54,739 INFO o.a.j.t.ThreadGroup: Starting thread group... number=6 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:54,739 INFO o.a.j.t.ThreadGroup: Started thread group number 6
-2020-05-19 11:49:54,739 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear room to finish before starting next group
-2020-05-19 11:49:54,739 INFO o.a.j.t.JMeterThread: Thread started: clear room 6-1
-2020-05-19 11:49:54,849 INFO o.a.j.t.JMeterThread: Thread is done: clear room 6-1
-2020-05-19 11:49:54,849 INFO o.a.j.t.JMeterThread: Thread finished: clear room 6-1
-2020-05-19 11:49:54,849 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 7 : clear crewuser
-2020-05-19 11:49:54,849 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear crewuser.
-2020-05-19 11:49:54,849 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:54,849 INFO o.a.j.t.ThreadGroup: Starting thread group... number=7 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:54,849 INFO o.a.j.t.ThreadGroup: Started thread group number 7
-2020-05-19 11:49:54,849 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear crewuser to finish before starting next group
-2020-05-19 11:49:54,849 INFO o.a.j.t.JMeterThread: Thread started: clear crewuser 7-1
-2020-05-19 11:49:54,896 INFO o.a.j.t.JMeterThread: Thread is done: clear crewuser 7-1
-2020-05-19 11:49:54,896 INFO o.a.j.t.JMeterThread: Thread finished: clear crewuser 7-1
-2020-05-19 11:49:54,896 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 8 : clear crew
-2020-05-19 11:49:54,896 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear crew.
-2020-05-19 11:49:54,896 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:54,896 INFO o.a.j.t.ThreadGroup: Starting thread group... number=8 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:54,896 INFO o.a.j.t.ThreadGroup: Started thread group number 8
-2020-05-19 11:49:54,896 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear crew to finish before starting next group
-2020-05-19 11:49:54,896 INFO o.a.j.t.JMeterThread: Thread started: clear crew 8-1
-2020-05-19 11:49:54,943 INFO o.a.j.t.JMeterThread: Thread is done: clear crew 8-1
-2020-05-19 11:49:54,943 INFO o.a.j.t.JMeterThread: Thread finished: clear crew 8-1
-2020-05-19 11:49:54,959 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 9 : clear building
-2020-05-19 11:49:54,959 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear building.
-2020-05-19 11:49:54,959 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:54,959 INFO o.a.j.t.ThreadGroup: Starting thread group... number=9 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:54,959 INFO o.a.j.t.ThreadGroup: Started thread group number 9
-2020-05-19 11:49:54,959 INFO o.a.j.t.JMeterThread: Thread started: clear building 9-1
-2020-05-19 11:49:54,959 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear building to finish before starting next group
-2020-05-19 11:49:54,991 INFO o.a.j.t.JMeterThread: Thread is done: clear building 9-1
-2020-05-19 11:49:54,991 INFO o.a.j.t.JMeterThread: Thread finished: clear building 9-1
-2020-05-19 11:49:54,991 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 10 : clear branch
-2020-05-19 11:49:54,991 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear branch.
-2020-05-19 11:49:54,991 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:54,991 INFO o.a.j.t.ThreadGroup: Starting thread group... number=10 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:54,991 INFO o.a.j.t.ThreadGroup: Started thread group number 10
-2020-05-19 11:49:54,991 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear branch to finish before starting next group
-2020-05-19 11:49:54,991 INFO o.a.j.t.JMeterThread: Thread started: clear branch 10-1
-2020-05-19 11:49:55,038 INFO o.a.j.t.JMeterThread: Thread is done: clear branch 10-1
-2020-05-19 11:49:55,038 INFO o.a.j.t.JMeterThread: Thread finished: clear branch 10-1
-2020-05-19 11:49:55,038 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 11 : clear workcenter
-2020-05-19 11:49:55,038 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear workcenter.
-2020-05-19 11:49:55,038 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:55,038 INFO o.a.j.t.ThreadGroup: Starting thread group... number=11 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:55,038 INFO o.a.j.t.ThreadGroup: Started thread group number 11
-2020-05-19 11:49:55,038 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear workcenter to finish before starting next group
-2020-05-19 11:49:55,038 INFO o.a.j.t.JMeterThread: Thread started: clear workcenter 11-1
-2020-05-19 11:49:55,084 INFO o.a.j.t.JMeterThread: Thread is done: clear workcenter 11-1
-2020-05-19 11:49:55,084 INFO o.a.j.t.JMeterThread: Thread finished: clear workcenter 11-1
-2020-05-19 11:49:55,084 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 12 : clear userrole
-2020-05-19 11:49:55,084 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear userrole.
-2020-05-19 11:49:55,084 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:55,084 INFO o.a.j.t.ThreadGroup: Starting thread group... number=12 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:55,084 INFO o.a.j.t.ThreadGroup: Started thread group number 12
-2020-05-19 11:49:55,084 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear userrole to finish before starting next group
-2020-05-19 11:49:55,084 INFO o.a.j.t.JMeterThread: Thread started: clear userrole 12-1
-2020-05-19 11:49:55,147 INFO o.a.j.t.JMeterThread: Thread is done: clear userrole 12-1
-2020-05-19 11:49:55,147 INFO o.a.j.t.JMeterThread: Thread finished: clear userrole 12-1
-2020-05-19 11:49:55,147 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 13 : clear roleprivilege
-2020-05-19 11:49:55,147 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear roleprivilege.
-2020-05-19 11:49:55,147 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:55,147 INFO o.a.j.t.ThreadGroup: Starting thread group... number=13 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:55,147 INFO o.a.j.t.ThreadGroup: Started thread group number 13
-2020-05-19 11:49:55,147 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear roleprivilege to finish before starting next group
-2020-05-19 11:49:55,147 INFO o.a.j.t.JMeterThread: Thread started: clear roleprivilege 13-1
-2020-05-19 11:49:55,194 INFO o.a.j.t.JMeterThread: Thread is done: clear roleprivilege 13-1
-2020-05-19 11:49:55,194 INFO o.a.j.t.JMeterThread: Thread finished: clear roleprivilege 13-1
-2020-05-19 11:49:55,194 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 14 : clear user
-2020-05-19 11:49:55,194 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear user.
-2020-05-19 11:49:55,194 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:55,194 INFO o.a.j.t.ThreadGroup: Starting thread group... number=14 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:55,194 INFO o.a.j.t.ThreadGroup: Started thread group number 14
-2020-05-19 11:49:55,194 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear user to finish before starting next group
-2020-05-19 11:49:55,194 INFO o.a.j.t.JMeterThread: Thread started: clear user 14-1
-2020-05-19 11:49:55,240 INFO o.a.j.t.JMeterThread: Thread is done: clear user 14-1
-2020-05-19 11:49:55,240 INFO o.a.j.t.JMeterThread: Thread finished: clear user 14-1
-2020-05-19 11:49:55,240 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 15 : clear role
-2020-05-19 11:49:55,240 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear role.
-2020-05-19 11:49:55,240 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:55,240 INFO o.a.j.t.ThreadGroup: Starting thread group... number=15 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:55,240 INFO o.a.j.t.ThreadGroup: Started thread group number 15
-2020-05-19 11:49:55,240 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear role to finish before starting next group
-2020-05-19 11:49:55,240 INFO o.a.j.t.JMeterThread: Thread started: clear role 15-1
-2020-05-19 11:49:55,288 INFO o.a.j.t.JMeterThread: Thread is done: clear role 15-1
-2020-05-19 11:49:55,288 INFO o.a.j.t.JMeterThread: Thread finished: clear role 15-1
-2020-05-19 11:49:55,288 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 16 : clear privilege
-2020-05-19 11:49:55,288 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear privilege.
-2020-05-19 11:49:55,288 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
-2020-05-19 11:49:55,288 INFO o.a.j.t.ThreadGroup: Starting thread group... number=16 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:55,288 INFO o.a.j.t.ThreadGroup: Started thread group number 16
-2020-05-19 11:49:55,288 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear privilege to finish before starting next group
-2020-05-19 11:49:55,288 INFO o.a.j.t.JMeterThread: Thread started: clear privilege 16-1
-2020-05-19 11:49:55,319 INFO o.a.j.t.JMeterThread: Thread is done: clear privilege 16-1
-2020-05-19 11:49:55,319 INFO o.a.j.t.JMeterThread: Thread finished: clear privilege 16-1
-2020-05-19 11:49:55,319 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 17 : insert into privilege
-2020-05-19 11:49:55,319 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into privilege.
-2020-05-19 11:49:55,319 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:49:55,319 INFO o.a.j.t.ThreadGroup: Starting thread group... number=17 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:55,319 INFO o.a.j.t.ThreadGroup: Started thread group number 17
-2020-05-19 11:49:55,319 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into privilege to finish before starting next group
-2020-05-19 11:49:55,319 INFO o.a.j.t.JMeterThread: Thread started: insert into privilege 17-1
-2020-05-19 11:49:56,196 INFO o.a.j.t.JMeterThread: Thread is done: insert into privilege 17-1
-2020-05-19 11:49:56,196 INFO o.a.j.t.JMeterThread: Thread finished: insert into privilege 17-1
-2020-05-19 11:49:56,196 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 18 : insert into role
-2020-05-19 11:49:56,196 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into role.
-2020-05-19 11:49:56,196 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:49:56,196 INFO o.a.j.t.ThreadGroup: Starting thread group... number=18 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:56,196 INFO o.a.j.t.ThreadGroup: Started thread group number 18
-2020-05-19 11:49:56,196 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into role to finish before starting next group
-2020-05-19 11:49:56,196 INFO o.a.j.t.JMeterThread: Thread started: insert into role 18-1
-2020-05-19 11:49:57,042 INFO o.a.j.t.JMeterThread: Thread is done: insert into role 18-1
-2020-05-19 11:49:57,042 INFO o.a.j.t.JMeterThread: Thread finished: insert into role 18-1
-2020-05-19 11:49:57,042 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 19 : insert into user
-2020-05-19 11:49:57,042 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into user.
-2020-05-19 11:49:57,042 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:49:57,042 INFO o.a.j.t.ThreadGroup: Starting thread group... number=19 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:57,042 INFO o.a.j.t.ThreadGroup: Started thread group number 19
-2020-05-19 11:49:57,042 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into user to finish before starting next group
-2020-05-19 11:49:57,058 INFO o.a.j.t.JMeterThread: Thread started: insert into user 19-1
-2020-05-19 11:49:58,499 INFO o.a.j.t.JMeterThread: Thread is done: insert into user 19-1
-2020-05-19 11:49:58,499 INFO o.a.j.t.JMeterThread: Thread finished: insert into user 19-1
-2020-05-19 11:49:58,499 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 20 : insert into roleprivilege
-2020-05-19 11:49:58,499 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into roleprivilege.
-2020-05-19 11:49:58,499 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:49:58,499 INFO o.a.j.t.ThreadGroup: Starting thread group... number=20 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:49:58,499 INFO o.a.j.t.ThreadGroup: Started thread group number 20
-2020-05-19 11:49:58,499 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into roleprivilege to finish before starting next group
-2020-05-19 11:49:58,499 INFO o.a.j.t.JMeterThread: Thread started: insert into roleprivilege 20-1
-2020-05-19 11:50:00,034 INFO o.a.j.r.Summariser: summary +   2532 in 00:00:06 =  419.8/s Avg:     2 Min:     0 Max:   353 Err:     1 (0.04%) Active: 1 Started: 20 Finished: 19
-2020-05-19 11:50:00,692 INFO o.a.j.t.JMeterThread: Thread is done: insert into roleprivilege 20-1
-2020-05-19 11:50:00,692 INFO o.a.j.t.JMeterThread: Thread finished: insert into roleprivilege 20-1
-2020-05-19 11:50:00,692 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 21 : insert into userrole
-2020-05-19 11:50:00,692 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into userrole.
-2020-05-19 11:50:00,692 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:50:00,692 INFO o.a.j.t.ThreadGroup: Starting thread group... number=21 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:50:00,692 INFO o.a.j.t.ThreadGroup: Started thread group number 21
-2020-05-19 11:50:00,692 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into userrole to finish before starting next group
-2020-05-19 11:50:00,692 INFO o.a.j.t.JMeterThread: Thread started: insert into userrole 21-1
-2020-05-19 11:50:02,713 INFO o.a.j.t.JMeterThread: Thread is done: insert into userrole 21-1
-2020-05-19 11:50:02,713 INFO o.a.j.t.JMeterThread: Thread finished: insert into userrole 21-1
-2020-05-19 11:50:02,713 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 22 : insert into workcenter
-2020-05-19 11:50:02,713 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into workcenter.
-2020-05-19 11:50:02,713 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:50:02,713 INFO o.a.j.t.ThreadGroup: Starting thread group... number=22 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:50:02,713 INFO o.a.j.t.ThreadGroup: Started thread group number 22
-2020-05-19 11:50:02,713 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into workcenter to finish before starting next group
-2020-05-19 11:50:02,713 INFO o.a.j.t.JMeterThread: Thread started: insert into workcenter 22-1
-2020-05-19 11:50:03,355 INFO o.a.j.t.JMeterThread: Thread is done: insert into workcenter 22-1
-2020-05-19 11:50:03,355 INFO o.a.j.t.JMeterThread: Thread finished: insert into workcenter 22-1
-2020-05-19 11:50:03,355 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 23 : insert into branch
-2020-05-19 11:50:03,355 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into branch.
-2020-05-19 11:50:03,355 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:50:03,355 INFO o.a.j.t.ThreadGroup: Starting thread group... number=23 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:50:03,355 INFO o.a.j.t.ThreadGroup: Started thread group number 23
-2020-05-19 11:50:03,355 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into branch to finish before starting next group
-2020-05-19 11:50:03,355 INFO o.a.j.t.JMeterThread: Thread started: insert into branch 23-1
-2020-05-19 11:50:04,671 INFO o.a.j.t.JMeterThread: Thread is done: insert into branch 23-1
-2020-05-19 11:50:04,671 INFO o.a.j.t.JMeterThread: Thread finished: insert into branch 23-1
-2020-05-19 11:50:04,671 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 24 : insert into building
-2020-05-19 11:50:04,671 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into building.
-2020-05-19 11:50:04,671 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:50:04,671 INFO o.a.j.t.ThreadGroup: Starting thread group... number=24 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:50:04,671 INFO o.a.j.t.ThreadGroup: Started thread group number 24
-2020-05-19 11:50:04,671 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into building to finish before starting next group
-2020-05-19 11:50:04,671 INFO o.a.j.t.JMeterThread: Thread started: insert into building 24-1
-2020-05-19 11:50:06,081 INFO o.a.j.t.JMeterThread: Thread is done: insert into building 24-1
-2020-05-19 11:50:06,081 INFO o.a.j.t.JMeterThread: Thread finished: insert into building 24-1
-2020-05-19 11:50:06,081 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 25 : insert into crew
-2020-05-19 11:50:06,081 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into crew.
-2020-05-19 11:50:06,081 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:50:06,081 INFO o.a.j.t.ThreadGroup: Starting thread group... number=25 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:50:06,081 INFO o.a.j.t.ThreadGroup: Started thread group number 25
-2020-05-19 11:50:06,081 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into crew to finish before starting next group
-2020-05-19 11:50:06,081 INFO o.a.j.t.JMeterThread: Thread started: insert into crew 25-1
-2020-05-19 11:50:07,459 INFO o.a.j.t.JMeterThread: Thread is done: insert into crew 25-1
-2020-05-19 11:50:07,459 INFO o.a.j.t.JMeterThread: Thread finished: insert into crew 25-1
-2020-05-19 11:50:07,459 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 26 : insert into crewuser
-2020-05-19 11:50:07,459 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into crewuser.
-2020-05-19 11:50:07,459 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:50:07,459 INFO o.a.j.t.ThreadGroup: Starting thread group... number=26 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:50:07,459 INFO o.a.j.t.ThreadGroup: Started thread group number 26
-2020-05-19 11:50:07,459 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into crewuser to finish before starting next group
-2020-05-19 11:50:07,459 INFO o.a.j.t.JMeterThread: Thread started: insert into crewuser 26-1
-2020-05-19 11:50:09,229 INFO o.a.j.t.JMeterThread: Thread is done: insert into crewuser 26-1
-2020-05-19 11:50:09,229 INFO o.a.j.t.JMeterThread: Thread finished: insert into crewuser 26-1
-2020-05-19 11:50:09,229 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 27 : insert into room
-2020-05-19 11:50:09,229 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into room.
-2020-05-19 11:50:09,229 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:50:09,229 INFO o.a.j.t.ThreadGroup: Starting thread group... number=27 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:50:09,229 INFO o.a.j.t.ThreadGroup: Started thread group number 27
-2020-05-19 11:50:09,229 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into room to finish before starting next group
-2020-05-19 11:50:09,229 INFO o.a.j.t.JMeterThread: Thread started: insert into room 27-1
-2020-05-19 11:50:10,451 INFO o.a.j.t.JMeterThread: Thread is done: insert into room 27-1
-2020-05-19 11:50:10,451 INFO o.a.j.t.JMeterThread: Thread finished: insert into room 27-1
-2020-05-19 11:50:10,451 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 28 : insert into equipment
-2020-05-19 11:50:10,451 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into equipment.
-2020-05-19 11:50:10,451 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:50:10,451 INFO o.a.j.t.ThreadGroup: Starting thread group... number=28 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:50:10,451 INFO o.a.j.t.ThreadGroup: Started thread group number 28
-2020-05-19 11:50:10,451 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into equipment to finish before starting next group
-2020-05-19 11:50:10,451 INFO o.a.j.t.JMeterThread: Thread started: insert into equipment 28-1
-2020-05-19 11:50:11,595 INFO o.a.j.t.JMeterThread: Thread is done: insert into equipment 28-1
-2020-05-19 11:50:11,595 INFO o.a.j.t.JMeterThread: Thread finished: insert into equipment 28-1
-2020-05-19 11:50:11,595 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 29 : insert into inspectiontype
-2020-05-19 11:50:11,595 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into inspectiontype.
-2020-05-19 11:50:11,595 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:50:11,595 INFO o.a.j.t.ThreadGroup: Starting thread group... number=29 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:50:11,595 INFO o.a.j.t.ThreadGroup: Started thread group number 29
-2020-05-19 11:50:11,595 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into inspectiontype to finish before starting next group
-2020-05-19 11:50:11,595 INFO o.a.j.t.JMeterThread: Thread started: insert into inspectiontype 29-1
-2020-05-19 11:50:12,096 INFO o.a.j.t.JMeterThread: Thread is done: insert into inspectiontype 29-1
-2020-05-19 11:50:12,096 INFO o.a.j.t.JMeterThread: Thread finished: insert into inspectiontype 29-1
-2020-05-19 11:50:12,096 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 30 : insert into maintenancetype
-2020-05-19 11:50:12,096 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into maintenancetype.
-2020-05-19 11:50:12,096 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:50:12,096 INFO o.a.j.t.ThreadGroup: Starting thread group... number=30 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:50:12,096 INFO o.a.j.t.ThreadGroup: Started thread group number 30
-2020-05-19 11:50:12,096 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into maintenancetype to finish before starting next group
-2020-05-19 11:50:12,096 INFO o.a.j.t.JMeterThread: Thread started: insert into maintenancetype 30-1
-2020-05-19 11:50:12,628 INFO o.a.j.t.JMeterThread: Thread is done: insert into maintenancetype 30-1
-2020-05-19 11:50:12,628 INFO o.a.j.t.JMeterThread: Thread finished: insert into maintenancetype 30-1
-2020-05-19 11:50:12,628 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 31 : insert into enumtype
-2020-05-19 11:50:12,628 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into enumtype.
-2020-05-19 11:50:12,628 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:50:12,628 INFO o.a.j.t.ThreadGroup: Starting thread group... number=31 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:50:12,628 INFO o.a.j.t.ThreadGroup: Started thread group number 31
-2020-05-19 11:50:12,628 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into enumtype to finish before starting next group
-2020-05-19 11:50:12,628 INFO o.a.j.t.JMeterThread: Thread started: insert into enumtype 31-1
-2020-05-19 11:50:13,192 INFO o.a.j.t.JMeterThread: Thread is done: insert into enumtype 31-1
-2020-05-19 11:50:13,192 INFO o.a.j.t.JMeterThread: Thread finished: insert into enumtype 31-1
-2020-05-19 11:50:13,192 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 32 : insert into enumtypevalue
-2020-05-19 11:50:13,192 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into enumtypevalue.
-2020-05-19 11:50:13,192 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2020-05-19 11:50:13,192 INFO o.a.j.t.ThreadGroup: Starting thread group... number=32 threads=1 ramp-up=1 delayedStart=false
-2020-05-19 11:50:13,192 INFO o.a.j.t.ThreadGroup: Started thread group number 32
-2020-05-19 11:50:13,192 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2020-05-19 11:50:13,192 INFO o.a.j.t.JMeterThread: Thread started: insert into enumtypevalue 32-1
-2020-05-19 11:50:14,398 INFO o.a.j.t.JMeterThread: Thread is done: insert into enumtypevalue 32-1
-2020-05-19 11:50:14,398 INFO o.a.j.t.JMeterThread: Thread finished: insert into enumtypevalue 32-1
-2020-05-19 11:50:14,398 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2020-05-19 11:50:14,493 INFO o.a.j.r.Summariser: summary +  11516 in 00:00:14 =  796.5/s Avg:     1 Min:     0 Max:    76 Err:    11 (0.10%) Active: 0 Started: 32 Finished: 32
-2020-05-19 11:50:14,493 INFO o.a.j.r.Summariser: summary =  14048 in 00:00:20 =  685.6/s Avg:     1 Min:     0 Max:   353 Err:    12 (0.09%)
+2020-05-22 17:45:59,100 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-05-22 17:45:59,162 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\Apache Software Fundation\JMeter\bin\user.properties
+2020-05-22 17:45:59,162 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\Apache Software Fundation\JMeter\bin\system.properties
+2020-05-22 17:45:59,162 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-05-22 17:45:59,162 INFO o.a.j.JMeter: Version 5.2.1
+2020-05-22 17:45:59,162 INFO o.a.j.JMeter: java.version=13.0.2
+2020-05-22 17:45:59,162 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-05-22 17:45:59,162 INFO o.a.j.JMeter: os.name=Windows Server 2016
+2020-05-22 17:45:59,162 INFO o.a.j.JMeter: os.arch=amd64
+2020-05-22 17:45:59,162 INFO o.a.j.JMeter: os.version=10.0
+2020-05-22 17:45:59,162 INFO o.a.j.JMeter: file.encoding=GBK
+2020-05-22 17:45:59,162 INFO o.a.j.JMeter: java.awt.headless=true
+2020-05-22 17:45:59,162 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-05-22 17:45:59,162 INFO o.a.j.JMeter: Available Processors =2
+2020-05-22 17:45:59,177 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-05-22 17:45:59,177 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-05-22 17:45:59,177 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\Apache Software Fundation\JMeter
+2020-05-22 17:45:59,177 INFO o.a.j.JMeter: user.dir  =C:\mp_jmeter
+2020-05-22 17:45:59,177 INFO o.a.j.JMeter: PWD       =C:\mp_jmeter
+2020-05-22 17:45:59,177 INFO o.a.j.JMeter: IP: 192.168.100.41 Name: WIN-3M16I69LKRB FullName: WIN-3M16I69LKRB
+2020-05-22 17:45:59,177 INFO o.a.j.s.FileServer: Default base='C:\mp_jmeter'
+2020-05-22 17:45:59,193 INFO o.a.j.s.FileServer: Set new base='C:\mp_jmeter'
+2020-05-22 17:45:59,405 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2020-05-22 17:45:59,431 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2020-05-22 17:45:59,431 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2020-05-22 17:45:59,452 INFO o.a.j.s.SaveService: Loading file: C:\mp_jmeter\reset_data.jmx
+2020-05-22 17:45:59,679 INFO o.a.j.JMeter: Creating summariser <summary>
+2020-05-22 17:45:59,694 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2020-05-22 17:45:59,694 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-05-22 17:45:59,710 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2020-05-22 17:45:59,710 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2020-05-22 17:45:59,710 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2020-05-22 17:46:00,336 INFO o.a.j.JMeter: Running test (1590140760336)
+2020-05-22 17:46:00,368 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : clear templatemeasurements
+2020-05-22 17:46:00,368 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear templatemeasurements.
+2020-05-22 17:46:00,368 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:00,368 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:00,384 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2020-05-22 17:46:00,384 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear templatemeasurements to finish before starting next group
+2020-05-22 17:46:00,384 INFO o.a.j.t.JMeterThread: Thread started: clear templatemeasurements 1-1
+2020-05-22 17:46:00,384 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-05-22 17:46:00,384 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-05-22 17:46:00,384 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-05-22 17:46:00,384 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-05-22 17:46:00,807 INFO o.a.j.r.Summariser: summary +      1 in 00:00:00 =    2.1/s Avg:   415 Min:   415 Max:   415 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2020-05-22 17:46:00,869 INFO o.a.j.t.JMeterThread: Thread is done: clear templatemeasurements 1-1
+2020-05-22 17:46:00,869 INFO o.a.j.t.JMeterThread: Thread finished: clear templatemeasurements 1-1
+2020-05-22 17:46:00,869 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : clear templateprocedure
+2020-05-22 17:46:00,869 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear templateprocedure.
+2020-05-22 17:46:00,869 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:00,869 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:00,869 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2020-05-22 17:46:00,869 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear templateprocedure to finish before starting next group
+2020-05-22 17:46:00,869 INFO o.a.j.t.JMeterThread: Thread started: clear templateprocedure 2-1
+2020-05-22 17:46:00,947 INFO o.a.j.t.JMeterThread: Thread is done: clear templateprocedure 2-1
+2020-05-22 17:46:00,947 INFO o.a.j.t.JMeterThread: Thread finished: clear templateprocedure 2-1
+2020-05-22 17:46:00,947 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : clear template
+2020-05-22 17:46:00,947 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear template.
+2020-05-22 17:46:00,947 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:00,947 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:00,947 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2020-05-22 17:46:00,947 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear template to finish before starting next group
+2020-05-22 17:46:00,947 INFO o.a.j.t.JMeterThread: Thread started: clear template 3-1
+2020-05-22 17:46:01,010 INFO o.a.j.t.JMeterThread: Thread is done: clear template 3-1
+2020-05-22 17:46:01,010 INFO o.a.j.t.JMeterThread: Thread finished: clear template 3-1
+2020-05-22 17:46:01,026 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 4 : clear enumtypevalue
+2020-05-22 17:46:01,026 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear enumtypevalue.
+2020-05-22 17:46:01,026 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,026 INFO o.a.j.t.ThreadGroup: Starting thread group... number=4 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,026 INFO o.a.j.t.ThreadGroup: Started thread group number 4
+2020-05-22 17:46:01,026 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear enumtypevalue to finish before starting next group
+2020-05-22 17:46:01,026 INFO o.a.j.t.JMeterThread: Thread started: clear enumtypevalue 4-1
+2020-05-22 17:46:01,073 INFO o.a.j.t.JMeterThread: Thread is done: clear enumtypevalue 4-1
+2020-05-22 17:46:01,073 INFO o.a.j.t.JMeterThread: Thread finished: clear enumtypevalue 4-1
+2020-05-22 17:46:01,073 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 5 : clear enumtype
+2020-05-22 17:46:01,073 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear enumtype.
+2020-05-22 17:46:01,073 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,073 INFO o.a.j.t.ThreadGroup: Starting thread group... number=5 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,073 INFO o.a.j.t.ThreadGroup: Started thread group number 5
+2020-05-22 17:46:01,073 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear enumtype to finish before starting next group
+2020-05-22 17:46:01,073 INFO o.a.j.t.JMeterThread: Thread started: clear enumtype 5-1
+2020-05-22 17:46:01,120 INFO o.a.j.t.JMeterThread: Thread is done: clear enumtype 5-1
+2020-05-22 17:46:01,120 INFO o.a.j.t.JMeterThread: Thread finished: clear enumtype 5-1
+2020-05-22 17:46:01,120 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 6 : clear maintenancetype
+2020-05-22 17:46:01,120 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear maintenancetype.
+2020-05-22 17:46:01,120 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,120 INFO o.a.j.t.ThreadGroup: Starting thread group... number=6 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,120 INFO o.a.j.t.ThreadGroup: Started thread group number 6
+2020-05-22 17:46:01,120 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear maintenancetype to finish before starting next group
+2020-05-22 17:46:01,136 INFO o.a.j.t.JMeterThread: Thread started: clear maintenancetype 6-1
+2020-05-22 17:46:01,167 INFO o.a.j.t.JMeterThread: Thread is done: clear maintenancetype 6-1
+2020-05-22 17:46:01,167 INFO o.a.j.t.JMeterThread: Thread finished: clear maintenancetype 6-1
+2020-05-22 17:46:01,167 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 7 : clear inspectiontype
+2020-05-22 17:46:01,167 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear inspectiontype.
+2020-05-22 17:46:01,167 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,167 INFO o.a.j.t.ThreadGroup: Starting thread group... number=7 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,167 INFO o.a.j.t.ThreadGroup: Started thread group number 7
+2020-05-22 17:46:01,167 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear inspectiontype to finish before starting next group
+2020-05-22 17:46:01,167 INFO o.a.j.t.JMeterThread: Thread started: clear inspectiontype 7-1
+2020-05-22 17:46:01,214 INFO o.a.j.t.JMeterThread: Thread is done: clear inspectiontype 7-1
+2020-05-22 17:46:01,214 INFO o.a.j.t.JMeterThread: Thread finished: clear inspectiontype 7-1
+2020-05-22 17:46:01,229 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 8 : clear equipment
+2020-05-22 17:46:01,229 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear equipment.
+2020-05-22 17:46:01,229 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,229 INFO o.a.j.t.ThreadGroup: Starting thread group... number=8 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,229 INFO o.a.j.t.ThreadGroup: Started thread group number 8
+2020-05-22 17:46:01,229 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear equipment to finish before starting next group
+2020-05-22 17:46:01,229 INFO o.a.j.t.JMeterThread: Thread started: clear equipment 8-1
+2020-05-22 17:46:01,276 INFO o.a.j.t.JMeterThread: Thread is done: clear equipment 8-1
+2020-05-22 17:46:01,276 INFO o.a.j.t.JMeterThread: Thread finished: clear equipment 8-1
+2020-05-22 17:46:01,276 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 9 : clear room
+2020-05-22 17:46:01,276 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear room.
+2020-05-22 17:46:01,276 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,276 INFO o.a.j.t.ThreadGroup: Starting thread group... number=9 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,276 INFO o.a.j.t.ThreadGroup: Started thread group number 9
+2020-05-22 17:46:01,292 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear room to finish before starting next group
+2020-05-22 17:46:01,292 INFO o.a.j.t.JMeterThread: Thread started: clear room 9-1
+2020-05-22 17:46:01,339 INFO o.a.j.t.JMeterThread: Thread is done: clear room 9-1
+2020-05-22 17:46:01,339 INFO o.a.j.t.JMeterThread: Thread finished: clear room 9-1
+2020-05-22 17:46:01,339 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 10 : clear crewuser
+2020-05-22 17:46:01,339 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear crewuser.
+2020-05-22 17:46:01,339 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,339 INFO o.a.j.t.ThreadGroup: Starting thread group... number=10 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,339 INFO o.a.j.t.ThreadGroup: Started thread group number 10
+2020-05-22 17:46:01,339 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear crewuser to finish before starting next group
+2020-05-22 17:46:01,339 INFO o.a.j.t.JMeterThread: Thread started: clear crewuser 10-1
+2020-05-22 17:46:01,402 INFO o.a.j.t.JMeterThread: Thread is done: clear crewuser 10-1
+2020-05-22 17:46:01,402 INFO o.a.j.t.JMeterThread: Thread finished: clear crewuser 10-1
+2020-05-22 17:46:01,402 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 11 : clear crew
+2020-05-22 17:46:01,402 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear crew.
+2020-05-22 17:46:01,402 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,402 INFO o.a.j.t.ThreadGroup: Starting thread group... number=11 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,402 INFO o.a.j.t.ThreadGroup: Started thread group number 11
+2020-05-22 17:46:01,402 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear crew to finish before starting next group
+2020-05-22 17:46:01,402 INFO o.a.j.t.JMeterThread: Thread started: clear crew 11-1
+2020-05-22 17:46:01,621 INFO o.a.j.t.JMeterThread: Thread is done: clear crew 11-1
+2020-05-22 17:46:01,621 INFO o.a.j.t.JMeterThread: Thread finished: clear crew 11-1
+2020-05-22 17:46:01,621 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 12 : clear building
+2020-05-22 17:46:01,621 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear building.
+2020-05-22 17:46:01,621 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,621 INFO o.a.j.t.ThreadGroup: Starting thread group... number=12 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,621 INFO o.a.j.t.ThreadGroup: Started thread group number 12
+2020-05-22 17:46:01,621 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear building to finish before starting next group
+2020-05-22 17:46:01,621 INFO o.a.j.t.JMeterThread: Thread started: clear building 12-1
+2020-05-22 17:46:01,652 INFO o.a.j.t.JMeterThread: Thread is done: clear building 12-1
+2020-05-22 17:46:01,652 INFO o.a.j.t.JMeterThread: Thread finished: clear building 12-1
+2020-05-22 17:46:01,652 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 13 : clear branch
+2020-05-22 17:46:01,652 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear branch.
+2020-05-22 17:46:01,652 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,652 INFO o.a.j.t.ThreadGroup: Starting thread group... number=13 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,652 INFO o.a.j.t.ThreadGroup: Started thread group number 13
+2020-05-22 17:46:01,652 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear branch to finish before starting next group
+2020-05-22 17:46:01,652 INFO o.a.j.t.JMeterThread: Thread started: clear branch 13-1
+2020-05-22 17:46:01,700 INFO o.a.j.t.JMeterThread: Thread is done: clear branch 13-1
+2020-05-22 17:46:01,700 INFO o.a.j.t.JMeterThread: Thread finished: clear branch 13-1
+2020-05-22 17:46:01,700 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 14 : clear workcenter
+2020-05-22 17:46:01,700 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear workcenter.
+2020-05-22 17:46:01,700 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,700 INFO o.a.j.t.ThreadGroup: Starting thread group... number=14 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,700 INFO o.a.j.t.ThreadGroup: Started thread group number 14
+2020-05-22 17:46:01,700 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear workcenter to finish before starting next group
+2020-05-22 17:46:01,700 INFO o.a.j.t.JMeterThread: Thread started: clear workcenter 14-1
+2020-05-22 17:46:01,747 INFO o.a.j.t.JMeterThread: Thread is done: clear workcenter 14-1
+2020-05-22 17:46:01,747 INFO o.a.j.t.JMeterThread: Thread finished: clear workcenter 14-1
+2020-05-22 17:46:01,747 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 15 : clear userrole
+2020-05-22 17:46:01,747 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear userrole.
+2020-05-22 17:46:01,747 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,747 INFO o.a.j.t.ThreadGroup: Starting thread group... number=15 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,747 INFO o.a.j.t.ThreadGroup: Started thread group number 15
+2020-05-22 17:46:01,747 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear userrole to finish before starting next group
+2020-05-22 17:46:01,747 INFO o.a.j.t.JMeterThread: Thread started: clear userrole 15-1
+2020-05-22 17:46:01,793 INFO o.a.j.t.JMeterThread: Thread is done: clear userrole 15-1
+2020-05-22 17:46:01,793 INFO o.a.j.t.JMeterThread: Thread finished: clear userrole 15-1
+2020-05-22 17:46:01,793 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 16 : clear roleprivilege
+2020-05-22 17:46:01,793 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear roleprivilege.
+2020-05-22 17:46:01,793 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,793 INFO o.a.j.t.ThreadGroup: Starting thread group... number=16 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,793 INFO o.a.j.t.ThreadGroup: Started thread group number 16
+2020-05-22 17:46:01,793 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear roleprivilege to finish before starting next group
+2020-05-22 17:46:01,793 INFO o.a.j.t.JMeterThread: Thread started: clear roleprivilege 16-1
+2020-05-22 17:46:01,841 INFO o.a.j.t.JMeterThread: Thread is done: clear roleprivilege 16-1
+2020-05-22 17:46:01,841 INFO o.a.j.t.JMeterThread: Thread finished: clear roleprivilege 16-1
+2020-05-22 17:46:01,841 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 17 : clear user
+2020-05-22 17:46:01,841 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear user.
+2020-05-22 17:46:01,841 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,841 INFO o.a.j.t.ThreadGroup: Starting thread group... number=17 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,856 INFO o.a.j.t.ThreadGroup: Started thread group number 17
+2020-05-22 17:46:01,856 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear user to finish before starting next group
+2020-05-22 17:46:01,856 INFO o.a.j.t.JMeterThread: Thread started: clear user 17-1
+2020-05-22 17:46:01,903 INFO o.a.j.t.JMeterThread: Thread is done: clear user 17-1
+2020-05-22 17:46:01,903 INFO o.a.j.t.JMeterThread: Thread finished: clear user 17-1
+2020-05-22 17:46:01,903 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 18 : clear role
+2020-05-22 17:46:01,903 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear role.
+2020-05-22 17:46:01,903 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,903 INFO o.a.j.t.ThreadGroup: Starting thread group... number=18 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,903 INFO o.a.j.t.ThreadGroup: Started thread group number 18
+2020-05-22 17:46:01,903 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear role to finish before starting next group
+2020-05-22 17:46:01,903 INFO o.a.j.t.JMeterThread: Thread started: clear role 18-1
+2020-05-22 17:46:01,950 INFO o.a.j.t.JMeterThread: Thread is done: clear role 18-1
+2020-05-22 17:46:01,950 INFO o.a.j.t.JMeterThread: Thread finished: clear role 18-1
+2020-05-22 17:46:01,950 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 19 : clear privilege
+2020-05-22 17:46:01,950 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group clear privilege.
+2020-05-22 17:46:01,950 INFO o.a.j.e.StandardJMeterEngine: Thread will stop on error
+2020-05-22 17:46:01,950 INFO o.a.j.t.ThreadGroup: Starting thread group... number=19 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,950 INFO o.a.j.t.ThreadGroup: Started thread group number 19
+2020-05-22 17:46:01,950 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: clear privilege to finish before starting next group
+2020-05-22 17:46:01,950 INFO o.a.j.t.JMeterThread: Thread started: clear privilege 19-1
+2020-05-22 17:46:01,997 INFO o.a.j.t.JMeterThread: Thread is done: clear privilege 19-1
+2020-05-22 17:46:01,997 INFO o.a.j.t.JMeterThread: Thread finished: clear privilege 19-1
+2020-05-22 17:46:01,997 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 20 : insert into privilege
+2020-05-22 17:46:01,997 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into privilege.
+2020-05-22 17:46:01,997 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:01,997 INFO o.a.j.t.ThreadGroup: Starting thread group... number=20 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:01,997 INFO o.a.j.t.ThreadGroup: Started thread group number 20
+2020-05-22 17:46:01,997 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into privilege to finish before starting next group
+2020-05-22 17:46:01,997 INFO o.a.j.t.JMeterThread: Thread started: insert into privilege 20-1
+2020-05-22 17:46:03,031 INFO o.a.j.t.JMeterThread: Thread is done: insert into privilege 20-1
+2020-05-22 17:46:03,031 INFO o.a.j.t.JMeterThread: Thread finished: insert into privilege 20-1
+2020-05-22 17:46:03,031 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 21 : insert into role
+2020-05-22 17:46:03,031 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into role.
+2020-05-22 17:46:03,031 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:03,031 INFO o.a.j.t.ThreadGroup: Starting thread group... number=21 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:03,031 INFO o.a.j.t.ThreadGroup: Started thread group number 21
+2020-05-22 17:46:03,031 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into role to finish before starting next group
+2020-05-22 17:46:03,031 INFO o.a.j.t.JMeterThread: Thread started: insert into role 21-1
+2020-05-22 17:46:04,065 INFO o.a.j.t.JMeterThread: Thread is done: insert into role 21-1
+2020-05-22 17:46:04,065 INFO o.a.j.t.JMeterThread: Thread finished: insert into role 21-1
+2020-05-22 17:46:04,065 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 22 : insert into user
+2020-05-22 17:46:04,065 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into user.
+2020-05-22 17:46:04,065 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:04,065 INFO o.a.j.t.ThreadGroup: Starting thread group... number=22 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:04,065 INFO o.a.j.t.ThreadGroup: Started thread group number 22
+2020-05-22 17:46:04,065 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into user to finish before starting next group
+2020-05-22 17:46:04,065 INFO o.a.j.t.JMeterThread: Thread started: insert into user 22-1
+2020-05-22 17:46:05,239 INFO o.a.j.t.JMeterThread: Thread is done: insert into user 22-1
+2020-05-22 17:46:05,239 INFO o.a.j.t.JMeterThread: Thread finished: insert into user 22-1
+2020-05-22 17:46:05,239 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 23 : insert into roleprivilege
+2020-05-22 17:46:05,239 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into roleprivilege.
+2020-05-22 17:46:05,239 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:05,239 INFO o.a.j.t.ThreadGroup: Starting thread group... number=23 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:05,239 INFO o.a.j.t.ThreadGroup: Started thread group number 23
+2020-05-22 17:46:05,239 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into roleprivilege to finish before starting next group
+2020-05-22 17:46:05,239 INFO o.a.j.t.JMeterThread: Thread started: insert into roleprivilege 23-1
+2020-05-22 17:46:07,793 INFO o.a.j.t.JMeterThread: Thread is done: insert into roleprivilege 23-1
+2020-05-22 17:46:07,793 INFO o.a.j.t.JMeterThread: Thread finished: insert into roleprivilege 23-1
+2020-05-22 17:46:07,808 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 24 : insert into userrole
+2020-05-22 17:46:07,808 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into userrole.
+2020-05-22 17:46:07,808 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:07,808 INFO o.a.j.t.ThreadGroup: Starting thread group... number=24 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:07,808 INFO o.a.j.t.ThreadGroup: Started thread group number 24
+2020-05-22 17:46:07,808 INFO o.a.j.t.JMeterThread: Thread started: insert into userrole 24-1
+2020-05-22 17:46:07,808 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into userrole to finish before starting next group
+2020-05-22 17:46:10,080 INFO o.a.j.t.JMeterThread: Thread is done: insert into userrole 24-1
+2020-05-22 17:46:10,080 INFO o.a.j.t.JMeterThread: Thread finished: insert into userrole 24-1
+2020-05-22 17:46:10,080 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 25 : insert into workcenter
+2020-05-22 17:46:10,080 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into workcenter.
+2020-05-22 17:46:10,080 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:10,080 INFO o.a.j.t.ThreadGroup: Starting thread group... number=25 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:10,080 INFO o.a.j.t.ThreadGroup: Started thread group number 25
+2020-05-22 17:46:10,080 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into workcenter to finish before starting next group
+2020-05-22 17:46:10,080 INFO o.a.j.t.JMeterThread: Thread started: insert into workcenter 25-1
+2020-05-22 17:46:10,879 INFO o.a.j.t.JMeterThread: Thread is done: insert into workcenter 25-1
+2020-05-22 17:46:10,879 INFO o.a.j.t.JMeterThread: Thread finished: insert into workcenter 25-1
+2020-05-22 17:46:10,879 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 26 : insert into branch
+2020-05-22 17:46:10,879 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into branch.
+2020-05-22 17:46:10,879 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:10,879 INFO o.a.j.t.ThreadGroup: Starting thread group... number=26 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:10,879 INFO o.a.j.t.ThreadGroup: Started thread group number 26
+2020-05-22 17:46:10,879 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into branch to finish before starting next group
+2020-05-22 17:46:10,879 INFO o.a.j.t.JMeterThread: Thread started: insert into branch 26-1
+2020-05-22 17:46:12,414 INFO o.a.j.t.JMeterThread: Thread is done: insert into branch 26-1
+2020-05-22 17:46:12,414 INFO o.a.j.t.JMeterThread: Thread finished: insert into branch 26-1
+2020-05-22 17:46:12,414 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 27 : insert into building
+2020-05-22 17:46:12,414 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into building.
+2020-05-22 17:46:12,414 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:12,429 INFO o.a.j.t.ThreadGroup: Starting thread group... number=27 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:12,429 INFO o.a.j.t.ThreadGroup: Started thread group number 27
+2020-05-22 17:46:12,429 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into building to finish before starting next group
+2020-05-22 17:46:12,429 INFO o.a.j.t.JMeterThread: Thread started: insert into building 27-1
+2020-05-22 17:46:13,980 INFO o.a.j.t.JMeterThread: Thread is done: insert into building 27-1
+2020-05-22 17:46:13,980 INFO o.a.j.t.JMeterThread: Thread finished: insert into building 27-1
+2020-05-22 17:46:13,980 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 28 : insert into crew
+2020-05-22 17:46:13,980 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into crew.
+2020-05-22 17:46:13,980 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:13,980 INFO o.a.j.t.ThreadGroup: Starting thread group... number=28 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:13,980 INFO o.a.j.t.ThreadGroup: Started thread group number 28
+2020-05-22 17:46:13,980 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into crew to finish before starting next group
+2020-05-22 17:46:13,996 INFO o.a.j.t.JMeterThread: Thread started: insert into crew 28-1
+2020-05-22 17:46:15,923 INFO o.a.j.t.JMeterThread: Thread is done: insert into crew 28-1
+2020-05-22 17:46:15,923 INFO o.a.j.t.JMeterThread: Thread finished: insert into crew 28-1
+2020-05-22 17:46:15,923 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 29 : insert into crewuser
+2020-05-22 17:46:15,923 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into crewuser.
+2020-05-22 17:46:15,923 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:15,923 INFO o.a.j.t.ThreadGroup: Starting thread group... number=29 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:15,923 INFO o.a.j.t.ThreadGroup: Started thread group number 29
+2020-05-22 17:46:15,923 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into crewuser to finish before starting next group
+2020-05-22 17:46:15,923 INFO o.a.j.t.JMeterThread: Thread started: insert into crewuser 29-1
+2020-05-22 17:46:18,256 INFO o.a.j.t.JMeterThread: Thread is done: insert into crewuser 29-1
+2020-05-22 17:46:18,256 INFO o.a.j.t.JMeterThread: Thread finished: insert into crewuser 29-1
+2020-05-22 17:46:18,256 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 30 : insert into room
+2020-05-22 17:46:18,256 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into room.
+2020-05-22 17:46:18,256 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:18,256 INFO o.a.j.t.ThreadGroup: Starting thread group... number=30 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:18,256 INFO o.a.j.t.ThreadGroup: Started thread group number 30
+2020-05-22 17:46:18,256 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into room to finish before starting next group
+2020-05-22 17:46:18,256 INFO o.a.j.t.JMeterThread: Thread started: insert into room 30-1
+2020-05-22 17:46:19,729 INFO o.a.j.t.JMeterThread: Thread is done: insert into room 30-1
+2020-05-22 17:46:19,729 INFO o.a.j.t.JMeterThread: Thread finished: insert into room 30-1
+2020-05-22 17:46:19,729 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 31 : insert into equipment
+2020-05-22 17:46:19,729 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into equipment.
+2020-05-22 17:46:19,729 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:19,729 INFO o.a.j.t.ThreadGroup: Starting thread group... number=31 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:19,729 INFO o.a.j.t.ThreadGroup: Started thread group number 31
+2020-05-22 17:46:19,729 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into equipment to finish before starting next group
+2020-05-22 17:46:19,729 INFO o.a.j.t.JMeterThread: Thread started: insert into equipment 31-1
+2020-05-22 17:46:23,568 INFO o.a.j.t.JMeterThread: Thread is done: insert into equipment 31-1
+2020-05-22 17:46:23,568 INFO o.a.j.t.JMeterThread: Thread finished: insert into equipment 31-1
+2020-05-22 17:46:23,568 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 32 : insert into inspectiontype
+2020-05-22 17:46:23,568 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into inspectiontype.
+2020-05-22 17:46:23,568 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:23,568 INFO o.a.j.t.ThreadGroup: Starting thread group... number=32 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:23,568 INFO o.a.j.t.ThreadGroup: Started thread group number 32
+2020-05-22 17:46:23,568 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into inspectiontype to finish before starting next group
+2020-05-22 17:46:23,632 INFO o.a.j.t.JMeterThread: Thread started: insert into inspectiontype 32-1
+2020-05-22 17:46:24,397 INFO o.a.j.t.JMeterThread: Thread is done: insert into inspectiontype 32-1
+2020-05-22 17:46:24,397 INFO o.a.j.t.JMeterThread: Thread finished: insert into inspectiontype 32-1
+2020-05-22 17:46:24,397 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 33 : insert into maintenancetype
+2020-05-22 17:46:24,397 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into maintenancetype.
+2020-05-22 17:46:24,397 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:24,397 INFO o.a.j.t.ThreadGroup: Starting thread group... number=33 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:24,397 INFO o.a.j.t.ThreadGroup: Started thread group number 33
+2020-05-22 17:46:24,397 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into maintenancetype to finish before starting next group
+2020-05-22 17:46:24,397 INFO o.a.j.t.JMeterThread: Thread started: insert into maintenancetype 33-1
+2020-05-22 17:46:25,211 INFO o.a.j.t.JMeterThread: Thread is done: insert into maintenancetype 33-1
+2020-05-22 17:46:25,211 INFO o.a.j.t.JMeterThread: Thread finished: insert into maintenancetype 33-1
+2020-05-22 17:46:25,211 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 34 : insert into enumtype
+2020-05-22 17:46:25,211 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into enumtype.
+2020-05-22 17:46:25,211 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:25,211 INFO o.a.j.t.ThreadGroup: Starting thread group... number=34 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:25,211 INFO o.a.j.t.ThreadGroup: Started thread group number 34
+2020-05-22 17:46:25,211 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into enumtype to finish before starting next group
+2020-05-22 17:46:25,211 INFO o.a.j.t.JMeterThread: Thread started: insert into enumtype 34-1
+2020-05-22 17:46:25,979 INFO o.a.j.t.JMeterThread: Thread is done: insert into enumtype 34-1
+2020-05-22 17:46:25,979 INFO o.a.j.t.JMeterThread: Thread finished: insert into enumtype 34-1
+2020-05-22 17:46:25,979 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 35 : insert into enumtypevalue
+2020-05-22 17:46:25,979 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into enumtypevalue.
+2020-05-22 17:46:25,979 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:25,979 INFO o.a.j.t.ThreadGroup: Starting thread group... number=35 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:25,979 INFO o.a.j.t.ThreadGroup: Started thread group number 35
+2020-05-22 17:46:25,979 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into enumtypevalue to finish before starting next group
+2020-05-22 17:46:25,979 INFO o.a.j.t.JMeterThread: Thread started: insert into enumtypevalue 35-1
+2020-05-22 17:46:28,454 INFO o.a.j.t.JMeterThread: Thread is done: insert into enumtypevalue 35-1
+2020-05-22 17:46:28,454 INFO o.a.j.t.JMeterThread: Thread finished: insert into enumtypevalue 35-1
+2020-05-22 17:46:28,454 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 36 : insert into template
+2020-05-22 17:46:28,454 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into template.
+2020-05-22 17:46:28,454 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:28,454 INFO o.a.j.t.ThreadGroup: Starting thread group... number=36 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:28,454 INFO o.a.j.t.ThreadGroup: Started thread group number 36
+2020-05-22 17:46:28,454 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into template to finish before starting next group
+2020-05-22 17:46:28,454 INFO o.a.j.t.JMeterThread: Thread started: insert into template 36-1
+2020-05-22 17:46:29,347 INFO o.a.j.t.JMeterThread: Thread is done: insert into template 36-1
+2020-05-22 17:46:29,347 INFO o.a.j.t.JMeterThread: Thread finished: insert into template 36-1
+2020-05-22 17:46:29,347 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 37 : insert into templateprocedure
+2020-05-22 17:46:29,347 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into templateprocedure.
+2020-05-22 17:46:29,347 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:29,347 INFO o.a.j.t.ThreadGroup: Starting thread group... number=37 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:29,347 INFO o.a.j.t.ThreadGroup: Started thread group number 37
+2020-05-22 17:46:29,347 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: insert into templateprocedure to finish before starting next group
+2020-05-22 17:46:29,347 INFO o.a.j.t.JMeterThread: Thread started: insert into templateprocedure 37-1
+2020-05-22 17:46:30,005 INFO o.a.j.r.Summariser: summary +  14948 in 00:00:29 =  512.0/s Avg:     1 Min:     0 Max:  2086 Err:    14 (0.09%) Active: 1 Started: 37 Finished: 36
+2020-05-22 17:46:30,005 INFO o.a.j.r.Summariser: summary =  14949 in 00:00:30 =  503.9/s Avg:     1 Min:     0 Max:  2086 Err:    14 (0.09%)
+2020-05-22 17:46:30,866 INFO o.a.j.t.JMeterThread: Thread is done: insert into templateprocedure 37-1
+2020-05-22 17:46:30,866 INFO o.a.j.t.JMeterThread: Thread finished: insert into templateprocedure 37-1
+2020-05-22 17:46:30,866 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 38 : insert into templatemeasurements
+2020-05-22 17:46:30,866 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group insert into templatemeasurements.
+2020-05-22 17:46:30,866 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2020-05-22 17:46:30,866 INFO o.a.j.t.ThreadGroup: Starting thread group... number=38 threads=1 ramp-up=1 delayedStart=false
+2020-05-22 17:46:30,866 INFO o.a.j.t.ThreadGroup: Started thread group number 38
+2020-05-22 17:46:30,866 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2020-05-22 17:46:30,866 INFO o.a.j.t.JMeterThread: Thread started: insert into templatemeasurements 38-1
+2020-05-22 17:46:33,816 INFO o.a.j.t.JMeterThread: Thread is done: insert into templatemeasurements 38-1
+2020-05-22 17:46:33,816 INFO o.a.j.t.JMeterThread: Thread finished: insert into templatemeasurements 38-1
+2020-05-22 17:46:33,816 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2020-05-22 17:46:33,956 INFO o.a.j.r.Summariser: summary +   2114 in 00:00:04 =  535.1/s Avg:     1 Min:     0 Max:    86 Err:     3 (0.14%) Active: 0 Started: 38 Finished: 38
+2020-05-22 17:46:33,956 INFO o.a.j.r.Summariser: summary =  17063 in 00:00:34 =  507.5/s Avg:     1 Min:     0 Max:  2086 Err:    17 (0.10%)

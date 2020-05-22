@@ -34,6 +34,231 @@
 				<stringProp name="username">username</stringProp>
 			</JDBCDataSource>
 			<hashTree/>
+			<ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="clear templatemeasurements" enabled="true">
+				<stringProp name="TestPlan.comments">Delete all rows of F2003, set sequence F2003_TSID.</stringProp>
+				<stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
+				<elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+					<boolProp name="LoopController.continue_forever">false</boolProp>
+					<stringProp name="LoopController.loops">1</stringProp>
+				</elementProp>
+				<stringProp name="ThreadGroup.num_threads">1</stringProp>
+				<stringProp name="ThreadGroup.ramp_time">1</stringProp>
+				<boolProp name="ThreadGroup.scheduler">false</boolProp>
+				<stringProp name="ThreadGroup.duration"></stringProp>
+				<stringProp name="ThreadGroup.delay"></stringProp>
+			</ThreadGroup>
+			<hashTree>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="delete" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Update Statement</stringProp>
+					<stringProp name="query">DELETE FROM F2003</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="fetch sequence tsid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Select Statement</stringProp>
+					<stringProp name="query">SELECT F2003_TSID.nextval FROM dual</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames">tsid_val</stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="alter sequence tsid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Update Statement</stringProp>
+					<stringProp name="query">ALTER SEQUENCE F2003_TSID INCREMENT BY ${__intSum(0,-${tsid_val_1})}</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="fetch sequence tsid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Select Statement</stringProp>
+					<stringProp name="query">SELECT F2003_TSID.nextval FROM dual</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="alter sequence tsid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Update Statement</stringProp>
+					<stringProp name="query">ALTER SEQUENCE F2003_TSID INCREMENT BY 1</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+			</hashTree>
+			<ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="clear templateprocedure" enabled="true">
+				<stringProp name="TestPlan.comments">Delete all rows of F2002, set sequence F2002_TPID.</stringProp>
+				<stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
+				<elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+					<boolProp name="LoopController.continue_forever">false</boolProp>
+					<stringProp name="LoopController.loops">1</stringProp>
+				</elementProp>
+				<stringProp name="ThreadGroup.num_threads">1</stringProp>
+				<stringProp name="ThreadGroup.ramp_time">1</stringProp>
+				<boolProp name="ThreadGroup.scheduler">false</boolProp>
+				<stringProp name="ThreadGroup.duration"></stringProp>
+				<stringProp name="ThreadGroup.delay"></stringProp>
+			</ThreadGroup>
+			<hashTree>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="delete" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Update Statement</stringProp>
+					<stringProp name="query">DELETE FROM F2002</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="fetch sequence tpid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Select Statement</stringProp>
+					<stringProp name="query">SELECT F2002_TPID.nextval FROM dual</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames">tpid_val</stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="alter sequence tpid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Update Statement</stringProp>
+					<stringProp name="query">ALTER SEQUENCE F2002_TPID INCREMENT BY ${__intSum(0,-${tpid_val_1})}</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="fetch sequence tpid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Select Statement</stringProp>
+					<stringProp name="query">SELECT F2002_TPID.nextval FROM dual</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="alter sequence tpid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Update Statement</stringProp>
+					<stringProp name="query">ALTER SEQUENCE F2002_TPID INCREMENT BY 1</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+			</hashTree>
+			<ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="clear template" enabled="true">
+				<stringProp name="TestPlan.comments">Delete all rows of F2001, set sequence F2001_TTID.</stringProp>
+				<stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
+				<elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+					<boolProp name="LoopController.continue_forever">false</boolProp>
+					<stringProp name="LoopController.loops">1</stringProp>
+				</elementProp>
+				<stringProp name="ThreadGroup.num_threads">1</stringProp>
+				<stringProp name="ThreadGroup.ramp_time">1</stringProp>
+				<boolProp name="ThreadGroup.scheduler">false</boolProp>
+				<stringProp name="ThreadGroup.duration"></stringProp>
+				<stringProp name="ThreadGroup.delay"></stringProp>
+			</ThreadGroup>
+			<hashTree>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="delete" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Update Statement</stringProp>
+					<stringProp name="query">DELETE FROM F2001</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="fetch sequence ttid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Select Statement</stringProp>
+					<stringProp name="query">SELECT F2001_TTID.nextval FROM dual</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames">ttid_val</stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="alter sequence ttid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Update Statement</stringProp>
+					<stringProp name="query">ALTER SEQUENCE F2001_TTID INCREMENT BY ${__intSum(0,-${ttid_val_1})}</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="fetch sequence ttid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Select Statement</stringProp>
+					<stringProp name="query">SELECT F2001_TTID.nextval FROM dual</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="alter sequence ttid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Update Statement</stringProp>
+					<stringProp name="query">ALTER SEQUENCE F2001_TTID INCREMENT BY 1</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+			</hashTree>
 			<ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="clear enumtypevalue" enabled="true">
 				<stringProp name="TestPlan.comments">Delete all rows of F0005, set sequence F0005_EVID.</stringProp>
 				<stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
@@ -1684,6 +1909,193 @@
 				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="insert" enabled="true">
 					<stringProp name="dataSource">db02</stringProp>
 					<stringProp name="query">INSERT INTO F0005 (EVID,EVETID,EVVAL,EVDESCRIPTION) VALUES (${evid},${evetid},${evval},${evdescription})</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="queryType">Update Statement</stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+				</JDBCSampler>
+				<hashTree/>
+			</hashTree>
+			<ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="insert into template" enabled="true">
+				<stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+				<elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+					<boolProp name="LoopController.continue_forever">false</boolProp>
+					<stringProp name="LoopController.loops">500</stringProp>
+				</elementProp>
+				<stringProp name="ThreadGroup.num_threads">1</stringProp>
+				<stringProp name="ThreadGroup.ramp_time">1</stringProp>
+				<boolProp name="ThreadGroup.scheduler">false</boolProp>
+				<stringProp name="ThreadGroup.duration"></stringProp>
+				<stringProp name="ThreadGroup.delay"></stringProp>
+				<stringProp name="TestPlan.comments">Insert demo data into F2001.</stringProp>
+			</ThreadGroup>
+			<hashTree>
+				<UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="parameters" enabled="true">
+					<collectionProp name="UserParameters.names">
+						<stringProp name="">ttid</stringProp>
+						<stringProp name="">ttname</stringProp>
+						<stringProp name="">tttype_ROOM</stringProp>
+						<stringProp name="">tttype_EQUIPMENT</stringProp>
+						<stringProp name="">tttype</stringProp>
+					</collectionProp>
+					<collectionProp name="UserParameters.thread_values">
+						<collectionProp name="">
+							<stringProp name="">F2001_TTID.nextval</stringProp>
+							<stringProp name="">'${__RandomString(32,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,)}'</stringProp>
+							<stringProp name="">R</stringProp>
+							<stringProp name="">E</stringProp>
+							<stringProp name="">'${__RandomFromMultipleVars(tttype_ROOM|tttype_EQUIPMENT,)}'</stringProp>
+						</collectionProp>
+					</collectionProp>
+					<boolProp name="UserParameters.per_iteration">false</boolProp>
+				</UserParameters>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="insert" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="query">INSERT INTO F2001 (TTID,TTNAME,TTTYPE) VALUES (${ttid},${ttname},${tttype})</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="queryType">Update Statement</stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+				</JDBCSampler>
+				<hashTree/>
+			</hashTree>
+			<ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="insert into templateprocedure" enabled="true">
+				<stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+				<elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+					<boolProp name="LoopController.continue_forever">false</boolProp>
+					<stringProp name="LoopController.loops">500</stringProp>
+				</elementProp>
+				<stringProp name="ThreadGroup.num_threads">1</stringProp>
+				<stringProp name="ThreadGroup.ramp_time">1</stringProp>
+				<boolProp name="ThreadGroup.scheduler">false</boolProp>
+				<stringProp name="ThreadGroup.duration"></stringProp>
+				<stringProp name="ThreadGroup.delay"></stringProp>
+				<stringProp name="TestPlan.comments">Insert demo data into F2002.</stringProp>
+			</ThreadGroup>
+			<hashTree>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="fetch tpttid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Select Statement</stringProp>
+					<stringProp name="query">SELECT TPTTID FROM (SELECT t0_.TTID TPTTID FROM F2001 t0_ ORDER BY dbms_random.value) WHERE ROWNUM=1</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames">tpttid</stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="parameters" enabled="true">
+					<collectionProp name="UserParameters.names">
+						<stringProp name="">tpid</stringProp>
+						<stringProp name="">tpttid</stringProp>
+						<stringProp name="">tpseq</stringProp>
+						<stringProp name="">tpdescription</stringProp>
+						<stringProp name="">tpphoto_OPTIONAL</stringProp>
+						<stringProp name="">tpphoto_REQUIRED</stringProp>
+						<stringProp name="">tpphoto</stringProp>
+					</collectionProp>
+					<collectionProp name="UserParameters.thread_values">
+						<collectionProp name="">
+							<stringProp name="">F2002_TPID.nextval</stringProp>
+							<stringProp name="">${tpttid_1}</stringProp>
+							<stringProp name="">${__Random(-9999,9999,)}</stringProp>
+							<stringProp name="">'${__RandomString(128,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,)}'</stringProp>
+							<stringProp name="">0</stringProp>
+							<stringProp name="">1</stringProp>
+							<stringProp name="">${__RandomFromMultipleVars(tpphoto_OPTIONAL|tpphoto_REQUIRED,)}</stringProp>
+						</collectionProp>
+					</collectionProp>
+					<boolProp name="UserParameters.per_iteration">false</boolProp>
+				</UserParameters>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="insert" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="query">INSERT INTO F2002 (TPID,TPTTID,TPSEQ,TPDESCRIPTION,TPPHOTO) VALUES (${tpid},${tpttid},${tpseq},${tpdescription},${tpphoto})</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="queryType">Update Statement</stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="variableNames"></stringProp>
+				</JDBCSampler>
+				<hashTree/>
+			</hashTree>
+			<ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="insert into templatemeasurements" enabled="true">
+				<stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+				<elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+					<boolProp name="LoopController.continue_forever">false</boolProp>
+					<stringProp name="LoopController.loops">500</stringProp>
+				</elementProp>
+				<stringProp name="ThreadGroup.num_threads">1</stringProp>
+				<stringProp name="ThreadGroup.ramp_time">1</stringProp>
+				<boolProp name="ThreadGroup.scheduler">false</boolProp>
+				<stringProp name="ThreadGroup.duration"></stringProp>
+				<stringProp name="ThreadGroup.delay"></stringProp>
+				<stringProp name="TestPlan.comments">Insert demo data into F2003.</stringProp>
+			</ThreadGroup>
+			<hashTree>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="fetch tsetid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Select Statement</stringProp>
+					<stringProp name="query">SELECT TSETID FROM (SELECT t0_.ETID TSETID FROM F0004 t0_ ORDER BY dbms_random.value) WHERE ROWNUM=1</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames">tsetid</stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="fetch tstpid" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="queryType">Select Statement</stringProp>
+					<stringProp name="query">SELECT TSTPID FROM (SELECT t0_.TPID TSTPID FROM F2002 t0_ ORDER BY dbms_random.value) WHERE ROWNUM=1</stringProp>
+					<stringProp name="queryArguments"></stringProp>
+					<stringProp name="queryArgumentsTypes"></stringProp>
+					<stringProp name="variableNames">tstpid</stringProp>
+					<stringProp name="resultVariable"></stringProp>
+					<stringProp name="queryTimeout"></stringProp>
+					<stringProp name="resultSetHandler">Store as String</stringProp>
+				</JDBCSampler>
+				<hashTree/>
+				<UserParameters guiclass="UserParametersGui" testclass="UserParameters" testname="parameters" enabled="true">
+					<collectionProp name="UserParameters.names">
+						<stringProp name="">tsid</stringProp>
+						<stringProp name="">tstpid</stringProp>
+						<stringProp name="">tsseq</stringProp>
+						<stringProp name="">tsname</stringProp>
+						<stringProp name="">tsetid</stringProp>
+						<stringProp name="">tsphoto_OPTIONAL</stringProp>
+						<stringProp name="">tsphoto_REQUIRED</stringProp>
+						<stringProp name="">tsphoto</stringProp>
+					</collectionProp>
+					<collectionProp name="UserParameters.thread_values">
+						<collectionProp name="">
+							<stringProp name="">F2003_TSID.nextval</stringProp>
+							<stringProp name="">${tstpid_1}</stringProp>
+							<stringProp name="">${__Random(-99,99,)}</stringProp>
+							<stringProp name="">'${__RandomString(12,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,)}'</stringProp>
+							<stringProp name="">'${tsetid_1}'</stringProp>
+							<stringProp name="">0</stringProp>
+							<stringProp name="">1</stringProp>
+							<stringProp name="">${__RandomFromMultipleVars(tsphoto_OPTIONAL|tsphoto_REQUIRED,)}</stringProp>
+						</collectionProp>
+					</collectionProp>
+					<boolProp name="UserParameters.per_iteration">false</boolProp>
+				</UserParameters>
+				<hashTree/>
+				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="insert" enabled="true">
+					<stringProp name="dataSource">db02</stringProp>
+					<stringProp name="query">INSERT INTO F2003 (TSID,TSTPID,TSSEQ,TSNAME,TSETID,TSPHOTO) VALUES (${tsid},${tstpid},${tsseq},${tsname},${__RandomFromMultipleVars(tsetid|null,)},${tsphoto})</stringProp>
 					<stringProp name="queryArguments"></stringProp>
 					<stringProp name="queryArgumentsTypes"></stringProp>
 					<stringProp name="queryTimeout"></stringProp>
