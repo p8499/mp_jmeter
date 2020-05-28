@@ -34,7 +34,7 @@
 				<stringProp name="username">username</stringProp>
 			</JDBCDataSource>
 			<hashTree/>
-			<ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="clear templatemeasurements" enabled="true">
+			<ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="clear templatemeasurement" enabled="true">
 				<stringProp name="TestPlan.comments">Delete all rows of F2003, set sequence F2003_TSID.</stringProp>
 				<stringProp name="ThreadGroup.on_sample_error">stopthread</stringProp>
 				<elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -2029,7 +2029,7 @@
 				</JDBCSampler>
 				<hashTree/>
 			</hashTree>
-			<ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="insert into templatemeasurements" enabled="true">
+			<ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="insert into templatemeasurement" enabled="true">
 				<stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
 				<elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
 					<boolProp name="LoopController.continue_forever">false</boolProp>
@@ -2074,6 +2074,9 @@
 						<stringProp name="">tsseq</stringProp>
 						<stringProp name="">tsname</stringProp>
 						<stringProp name="">tsetid</stringProp>
+						<stringProp name="">tsmin</stringProp>
+						<stringProp name="">tsmax</stringProp>
+						<stringProp name="">tsunit</stringProp>
 						<stringProp name="">tsphoto_OPTIONAL</stringProp>
 						<stringProp name="">tsphoto_REQUIRED</stringProp>
 						<stringProp name="">tsphoto</stringProp>
@@ -2085,6 +2088,9 @@
 							<stringProp name="">${__Random(-99,99,)}</stringProp>
 							<stringProp name="">'${__RandomString(12,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,)}'</stringProp>
 							<stringProp name="">'${tsetid_1}'</stringProp>
+							<stringProp name="">${__Random(-99999999,99999999,)}.${__Random(0,9999,)}</stringProp>
+							<stringProp name="">${__Random(-99999999,99999999,)}.${__Random(0,9999,)}</stringProp>
+							<stringProp name="">'${__RandomString(4,ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789,)}'</stringProp>
 							<stringProp name="">0</stringProp>
 							<stringProp name="">1</stringProp>
 							<stringProp name="">${__RandomFromMultipleVars(tsphoto_OPTIONAL|tsphoto_REQUIRED,)}</stringProp>
@@ -2095,7 +2101,7 @@
 				<hashTree/>
 				<JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="insert" enabled="true">
 					<stringProp name="dataSource">db02</stringProp>
-					<stringProp name="query">INSERT INTO F2003 (TSID,TSTPID,TSSEQ,TSNAME,TSETID,TSPHOTO) VALUES (${tsid},${tstpid},${tsseq},${tsname},${__RandomFromMultipleVars(tsetid|null,)},${tsphoto})</stringProp>
+					<stringProp name="query">INSERT INTO F2003 (TSID,TSTPID,TSSEQ,TSNAME,TSETID,TSMIN,TSMAX,TSUNIT,TSPHOTO) VALUES (${tsid},${tstpid},${tsseq},${tsname},${__RandomFromMultipleVars(tsetid|null,)},${__RandomFromMultipleVars(tsmin|null,)},${__RandomFromMultipleVars(tsmax|null,)},${__RandomFromMultipleVars(tsunit|null,)},${tsphoto})</stringProp>
 					<stringProp name="queryArguments"></stringProp>
 					<stringProp name="queryArgumentsTypes"></stringProp>
 					<stringProp name="queryTimeout"></stringProp>
